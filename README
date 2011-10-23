@@ -1,0 +1,4 @@
+Created from map2sqlite which is Copyright (c) 2009, Frank Schroeder, SharpMind GbR
+
+creates an mbtiles v1.1 compliant db (minuse the metadata information) from a
+directory containing osm style (./[ZOOM]/[COL]/[ROW].png) slippy tiles
