@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'map2sqlite' target in the 'osm2mbtiles_1_1' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#define START_TIMER(t)			NSDate* t = [NSDate date];
+#define STOP_TIMER(t, msg)		NSLog(@"%@: %0.2f seconds", (msg), -[t timeIntervalSinceNow]);

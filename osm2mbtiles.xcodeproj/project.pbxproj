@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		786389EA13C20DFC00C52B4E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 786389E313C20DFC00C52B4E /* FMDatabase.m */; };
+		786389EB13C20DFC00C52B4E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 786389E513C20DFC00C52B4E /* FMDatabaseAdditions.m */; };
+		786389EC13C20DFC00C52B4E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 786389E713C20DFC00C52B4E /* FMResultSet.m */; };
+		786389ED13C20DFC00C52B4E /* osm2mbtiles_1_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 786389E913C20DFC00C52B4E /* osm2mbtiles_1_1.m */; };
+		786389EF13C20E3D00C52B4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 786389EE13C20E3D00C52B4E /* Foundation.framework */; };
+		786389F113C20E6100C52B4E /* SQLite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 786389F013C20E6100C52B4E /* SQLite3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		786389D413C20D5A00C52B4E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		786389D613C20D5A00C52B4E /* osm2mbtiles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = osm2mbtiles; sourceTree = BUILT_PRODUCTS_DIR; };
+		786389DC13C20D5A00C52B4E /* osm2mbtiles.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = osm2mbtiles.1; sourceTree = "<group>"; };
+		786389E213C20DFC00C52B4E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		786389E313C20DFC00C52B4E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		786389E413C20DFC00C52B4E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		786389E513C20DFC00C52B4E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		786389E613C20DFC00C52B4E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		786389E713C20DFC00C52B4E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		786389E813C20DFC00C52B4E /* osm2mbtiles_1_1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osm2mbtiles_1_1_Prefix.pch; sourceTree = "<group>"; };
+		786389E913C20DFC00C52B4E /* osm2mbtiles_1_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = osm2mbtiles_1_1.m; sourceTree = "<group>"; };
+		786389EE13C20E3D00C52B4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		786389F013C20E6100C52B4E /* SQLite3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite3.framework; path = Library/Frameworks/SQLite3.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		786389D313C20D5A00C52B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786389F113C20E6100C52B4E /* SQLite3.framework in Frameworks */,
+				786389EF13C20E3D00C52B4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		786389CB13C20D5A00C52B4E = {
+			isa = PBXGroup;
+			children = (
+				786389F313C20E9A00C52B4E /* fmdb */,
+				786389E813C20DFC00C52B4E /* osm2mbtiles_1_1_Prefix.pch */,
+				786389E913C20DFC00C52B4E /* osm2mbtiles_1_1.m */,
+				786389D913C20D5A00C52B4E /* osm2mbtiles */,
+				786389D713C20D5A00C52B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		786389D713C20D5A00C52B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				786389D613C20D5A00C52B4E /* osm2mbtiles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		786389D913C20D5A00C52B4E /* osm2mbtiles */ = {
+			isa = PBXGroup;
+			children = (
+				786389DC13C20D5A00C52B4E /* osm2mbtiles.1 */,
+				786389F213C20E7400C52B4E /* External Frameworks */,
+			);
+			path = osm2mbtiles;
+			sourceTree = "<group>";
+		};
+		786389F213C20E7400C52B4E /* External Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				786389F013C20E6100C52B4E /* SQLite3.framework */,
+				786389EE13C20E3D00C52B4E /* Foundation.framework */,
+			);
+			name = "External Frameworks";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		786389F313C20E9A00C52B4E /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				786389E213C20DFC00C52B4E /* FMDatabase.h */,
+				786389E313C20DFC00C52B4E /* FMDatabase.m */,
+				786389E413C20DFC00C52B4E /* FMDatabaseAdditions.h */,
+				786389E513C20DFC00C52B4E /* FMDatabaseAdditions.m */,
+				786389E613C20DFC00C52B4E /* FMResultSet.h */,
+				786389E713C20DFC00C52B4E /* FMResultSet.m */,
+			);
+			name = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786389D513C20D5A00C52B4E /* osm2mbtiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786389DF13C20D5A00C52B4E /* Build configuration list for PBXNativeTarget "osm2mbtiles" */;
+			buildPhases = (
+				786389D213C20D5A00C52B4E /* Sources */,
+				786389D313C20D5A00C52B4E /* Frameworks */,
+				786389D413C20D5A00C52B4E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osm2mbtiles;
+			productName = osm2mbtiles;
+			productReference = 786389D613C20D5A00C52B4E /* osm2mbtiles */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		786389CD13C20D5A00C52B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Ride Oracle";
+			};
+			buildConfigurationList = 786389D013C20D5A00C52B4E /* Build configuration list for PBXProject "osm2mbtiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 786389CB13C20D5A00C52B4E;
+			productRefGroup = 786389D713C20D5A00C52B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786389D513C20D5A00C52B4E /* osm2mbtiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786389D213C20D5A00C52B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786389EA13C20DFC00C52B4E /* FMDatabase.m in Sources */,
+				786389EB13C20DFC00C52B4E /* FMDatabaseAdditions.m in Sources */,
+				786389EC13C20DFC00C52B4E /* FMResultSet.m in Sources */,
+				786389ED13C20DFC00C52B4E /* osm2mbtiles_1_1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		786389DD13C20D5A00C52B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		786389DE13C20D5A00C52B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		786389E013C20D5A00C52B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		786389E113C20D5A00C52B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		786389D013C20D5A00C52B4E /* Build configuration list for PBXProject "osm2mbtiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786389DD13C20D5A00C52B4E /* Debug */,
+				786389DE13C20D5A00C52B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786389DF13C20D5A00C52B4E /* Build configuration list for PBXNativeTarget "osm2mbtiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786389E013C20D5A00C52B4E /* Debug */,
+				786389E113C20D5A00C52B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 786389CD13C20D5A00C52B4E /* Project object */;
+}
